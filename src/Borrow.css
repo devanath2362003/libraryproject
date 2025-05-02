@@ -1,0 +1,62 @@
+/* BorrowedBooks Container Styling */
+.borrowed-books-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Heading */
+  .borrowed-books-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Back Button */
+  .borrowed-books-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .borrowed-books-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* DataTable Styling */
+  .custom-data-table .rdt_TableHead {
+    background-color: #e9ecef;
+    font-weight: bold;
+  }
+  
+  .custom-data-table .rdt_TableRow:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .custom-data-table .rdt_TableCell {
+    padding: 12px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .borrowed-books-container {
+      padding: 15px;
+    }
+  
+    .borrowed-books-container button {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  

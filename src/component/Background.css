@@ -1,0 +1,98 @@
+/* Background.css */
+
+/* General Body Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../BG1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Borrowed Books Container */
+.borrowed-books-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.borrowed-books-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* Button Styling */
+.borrowed-books-container button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover Effects */
+.borrowed-books-container button:hover {
+  background-color: #2980b9;
+  transform: scale(1.03);
+}
+
+/* Custom DataTable */
+.custom-data-table {
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .borrowed-books-container {
+    padding: 1.5rem;
+  }
+
+  .borrowed-books-container h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .borrowed-books-container {
+    padding: 1rem;
+  }
+
+  .borrowed-books-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .borrowed-books-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .borrowed-books-container {
+    padding: 0.8rem;
+  }
+
+  .borrowed-books-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .borrowed-books-container button {
+    padding: 14px;
+    font-size: 1rem;
+  }
+}
